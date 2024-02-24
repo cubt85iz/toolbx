@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "butane",
+    "coreos-installer",
+    "just",
+    "podman",
+    "python3-pip"
+  ],
+  "repositories": []
+}
