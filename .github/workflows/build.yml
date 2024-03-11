@@ -80,7 +80,7 @@ jobs:
           image: ${{ matrix.environment }}-${{ matrix.image_name }}
           tags: |
             ${{ steps.generate-image-tags.outputs.alias_tags }}
-          extra_args: |
+          extra-args: |
             --build-arg=CONFIG=${{ matrix.environment }}
           labels: ${{ steps.define-image-metadata.outputs.labels }}
           oci: false
