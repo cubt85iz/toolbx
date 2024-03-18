@@ -1,6 +1,7 @@
 {
   "packages": [
-    "ffmpeg"
+    "ffmpeg",
+    "just"
   ],
   "repositories": [
     "https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-39.noarch.rpm",
