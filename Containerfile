@@ -1,5 +1,5 @@
 # Update static references to major version in configurations
-FROM registry.fedoraproject.org/fedora-toolbox:40
+FROM registry.fedoraproject.org/fedora-toolbox:41
 
 # Variables
 ARG CONFIG=${CONFIG:-}
