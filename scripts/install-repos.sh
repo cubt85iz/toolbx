@@ -9,5 +9,5 @@ if [ -n "${REPOS[*]}" ]; then
 fi
 
 if dnf repolist | grep rpmfusion; then
-  dnf config-manager --enable fedora-cisco-openh264
+  dnf config-manager setopt fedora-cisco-openh264.enabled=1
 fi
